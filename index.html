@@ -10,7 +10,58 @@
   <body>
     <div class="container">
       <h1>Survey of Favorites</h1>
-
-    </div>    
+      <h3>Choose or input your favorite thing(s) in each section:</h3>
+      <form id="favorites">
+        <div class="form-group">
+          <label for="pet-name">What's your favorite pet name?</label>
+          <input id="pet-name" type="text">
+        </div>
+        <select id="button" class="form-control">
+          <label>Which is your favorite button style?</label>
+          <option>Button 1</option>
+          <option>Button 2</option>
+          <option>Button 3</option>
+          <option>Button 4</option>
+        </select>
+        <div class="radio">
+          <label>
+            <input type="radio" name="data-type" value="string">
+            string
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="data-type" value="number">
+            number
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="data-type" value="undefined">
+            undefined
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="data-type" value="boolean">
+            boolean
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="data-type" value="null">
+            null
+          </label>
+        </div>
+        <div class="form-group">
+          <label for="date">Favorite Date:</label>
+          <input id="date" class="form-control" type="date">
+        </div>
+        <div class="form-group">
+        <label for="color">What is your favorite color?</label>
+        <input id="color" class="form-control" type="color">
+      </div>
+      </form>
+    </div>
   </body>
 </html>
